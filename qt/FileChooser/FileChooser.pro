@@ -1,4 +1,5 @@
 QT       += core gui
+QT       += svg
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -22,3 +23,15 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    lang/example.txt \
+    lang/translation.txt \
+    lang/french.qm\
+    res/choose_file.png \
+    res/language.svg \
+    res/sgsoft-1.png \
+    res/view_file.png
+
+RESOURCES += \
+    res.qrc

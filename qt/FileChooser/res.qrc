@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/app/res">
+        <file>res/choose_file.png</file>
+        <file>res/language.svg</file>
+        <file>res/sgsoft-1.png</file>
+        <file>res/view_file.png</file>
+        <file>lang/translation.txt</file>
+        <file>lang/french.qm</file>
+    </qresource>
+</RCC>

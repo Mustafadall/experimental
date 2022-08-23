@@ -1,0 +1,2 @@
+Welcome = Bienvenue
+Choose file = Choisissez un fichier
